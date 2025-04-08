@@ -6,6 +6,9 @@ import asyncio
 from langchain_openai import ChatOpenAI
 import os
 from m3e import M3EBaseEmbeddings
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from langchain_chroma import Chroma
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
