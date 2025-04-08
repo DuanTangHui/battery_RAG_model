@@ -16,7 +16,7 @@ openai>=1.16.1
 transformers>=4.40.1
 accelerate>=0.29.3
 tiktoken>=0.6.0
-sqlite3 >= 3.35.0
+
 
 hnswlib>=0.8.0  # Chroma 底层向量索引
 pydantic>=1.10.13,<2.0.0  # 避免 Chroma/LangChain 报错
