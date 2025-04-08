@@ -4,7 +4,6 @@ pandas>=2.2.1
 
 
 streamlit>=1.32.0
-uvicorn>=0.29.0      # 若后端也通过 FastAPI 部署（可选）
 
 # === RAG Stack ===
 langchain>=0.1.13
