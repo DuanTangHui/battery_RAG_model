@@ -1,0 +1,29 @@
+
+numpy>=1.24.2
+pandas>=2.2.1
+
+
+streamlit>=1.32.0
+uvicorn>=0.29.0      # 若后端也通过 FastAPI 部署（可选）
+
+# === RAG Stack ===
+langchain>=0.1.13
+chromadb>=0.4.24
+sentence-transformers>=2.6.1
+
+
+openai>=1.16.1
+transformers>=4.40.1
+accelerate>=0.29.3
+tiktoken>=0.6.0
+
+
+hnswlib>=0.8.0  # Chroma 底层向量索引
+pydantic>=1.10.13,<2.0.0  # 避免 Chroma/LangChain 报错
+
+
+httpx>=0.27.0
+aiohttp>=3.9.3
+nest_asyncio>=1.6.0
+
+python-dotenv>=1.0.1
