@@ -1,5 +1,5 @@
 # Streamlit框架
-streamlit==1.32.0
+streamlit==1.44.1
 pysqlite3-binary
 # LangChain及其相关组件
 langchain==0.1.13
