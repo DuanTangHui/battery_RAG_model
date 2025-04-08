@@ -15,7 +15,7 @@ sentence-transformers==4.0.2
 # 依赖项统一
 tenacity==8.2.3
 colorama==0.4.6
-
+nest_asyncio==1.6.0
 
 # 其他必要库
 openai==1.70.0
